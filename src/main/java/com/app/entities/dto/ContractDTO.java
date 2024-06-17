@@ -1,7 +1,7 @@
 package com.app.entities.dto;
 
 import java.util.Date;
-import com.app.users.dto.ProfileDTO;
+import java.util.UUID;
 
 enum ContractStatus {
   NEW,
@@ -11,8 +11,8 @@ enum ContractStatus {
 }
 
 public class ContractDTO {
-  public ProfileDTO patient;
-  public ProfileDTO carePerson;
+  public UUID patientId;
+  public UUID carePersonId;
   public Date startDate;
   public Date endDate;
   public ContractStatus status;

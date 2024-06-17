@@ -1,13 +1,12 @@
 package com.app.entities.dto;
 
-import com.app.users.dto.ProfileDTO;
-
 import java.util.Date;
+import java.util.UUID;
 
 public class ReportDTO {
   public Date date;
   public String description;
   public Integer rate;
-  public ProfileDTO fromProfile;
-  public ProfileDTO toProfile;
+  public UUID fromProfileId;
+  public UUID toProfileId;
 }
