@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  db:
+    build: .
+    restart: always
+    env_file: .env
+    ports:
+      - "3306:3306"

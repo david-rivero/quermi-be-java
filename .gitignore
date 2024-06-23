@@ -71,3 +71,4 @@ secrets.yml
 .git-hooks/
 node_modules
 NOTES.md
+setup/.env
